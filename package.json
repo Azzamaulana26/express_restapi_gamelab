@@ -1,0 +1,21 @@
+{
+    "name": "express-restapi",
+    "version": "0.0.0",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "debug": "SET DEBUG=express_testing:main & node index.js"
+    },
+    "dependencies": {
+        "assert": "^2.1.0",
+        "body-parser": "^1.20.2",
+        "cookie-parser": "~1.4.4",
+        "debug": "~2.6.9",
+        "express": "~4.16.1",
+        "jsonwebtoken": "^9.0.2",
+        "morgan": "~1.9.1",
+        "node": "^20.13.1",
+        "nodemon": "^3.1.0"
+    }
+}
